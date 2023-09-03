@@ -40,6 +40,7 @@ ext {
 }
 
 dependencies {
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.6'
     implementation "org.web3j:core:$web3jVersion",
             "ch.qos.logback:logback-core:$logbackVersion",
             "ch.qos.logback:logback-classic:$logbackVersion",
